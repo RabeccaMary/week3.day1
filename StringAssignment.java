@@ -25,6 +25,9 @@ public class StringAssignment {
 			System.out.println("same");
 		else
 			System.out.println("Not same");
+		String a = "I am working with Java 8";
+
+		System.out.println("Replace string : " + a.replaceAll("8", "11"));
 
 	}
 
